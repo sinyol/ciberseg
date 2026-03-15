@@ -270,15 +270,6 @@ export const PRODUCTS = [
     color: "#1a1a2e",
   },
   {
-    id: "dbsec",
-    name: "Seguretat de BBDD (Imperva / IBM Guardium)",
-    vendor: "Diversos",
-    note: { ca: "Monitorització, auditoria i protecció de bases de dades: accés privilegiat, xifrat i DLP.", es: "Monitorización, auditoría y protección de bases de datos: acceso privilegiado, cifrado y DLP." },
-    controls: ["si2","si4"],
-    icon: "D",
-    color: "#2d3436",
-  },
-  {
     id: "urlfilter",
     name: "Filtrat web (FortiGate / FortiSASE)",
     vendor: "Fortinet",
@@ -289,7 +280,7 @@ export const PRODUCTS = [
   },
   {
     id: "soar",
-    name: "Azure Sentinel SOAR / Palo Alto XSOAR",
+    name: "Azure Sentinel SOAR",
     vendor: "Diversos",
     note: { ca: "Automatització de la resposta a incidents: playbooks, orquestració i reducció del temps de reacció.", es: "Automatización de la respuesta a incidentes: playbooks, orquestación y reducción del tiempo de reacción." },
     controls: ["oc10","oc11"],
@@ -318,7 +309,7 @@ export const PRODUCTS = [
     id: "syslog",
     name: "Servidor Syslog centralitzat (Interwor)",
     vendor: "Interwor",
-    note: { ca: "Desplegament i configuració d'un sistema de logs centralitzat per a tots els dispositius de la xarxa.", es: "Despliegue y configuración de un sistema de logs centralizado para todos los dispositivos de la red." },
+    note: { ca: "Desplegament i configuració d'un sistema de logs centralitzat per a tots els dispositius de la xarxa i consoles per reportar al SIEM.", es: "Despliegue y configuración de un sistema de logs centralizado para todos los dispositivos de la red." },
     controls: ["or3","or4","or2"],
     icon: "I",
     color: "#1a1a2e",
@@ -334,7 +325,7 @@ export const PRODUCTS = [
   },
   {
     id: "oc9net",
-    name: "Analítica de xarxa (Darktrace / Vectra)",
+    name: "Analítica de xarxa (Darktrace) NDR",
     vendor: "Diversos",
     note: { ca: "Anàlisi de tràfic de xarxa amb IA per detectar amenaces, moviment lateral i exfiltració de dades.", es: "Análisis de tráfico de red con IA para detectar amenazas, movimiento lateral y exfiltración de datos." },
     controls: ["oc9"],
