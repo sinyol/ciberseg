@@ -11,7 +11,7 @@ const STATUS = [
   { value: "No Aplica", label: "N/A", c: "#475569", bg: "#f1f5f9", b: "#cbd5e1" },
 ];
 
-const LOGO_URL = "https://interwor-tsic.com/wp-content/uploads/2025/06/logo_cabecera.svg";
+const LOGO_URL = "https://www.knowmadmood.com/en/media/Logo_Knowmad_mood_Regular_Black_Vector.svg";
 const LOGO_WHITE = "https://www.knowmadmood.com/en/media/Logo_Knowmad_mood_Regular_White_Vector.svg";
 const WHATSAPP_CHANNEL = "https://whatsapp.com/channel/interwor-ciberseguretat";
 
