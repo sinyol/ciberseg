@@ -141,7 +141,7 @@ export default function App() {
       CATEGORIES.forEach(c=>{const ws=wb.Sheets[c.sheetName];if(!ws)return;
         XLSX.utils.sheet_to_json(ws,{header:1}).slice(1).forEach(r=>{if(!r[0])return;
           const cn=String(r[0]).trim().toLowerCase();
-          const it=c.items.find(i=>i.component.toLowerCase()===cn||cn.includes(i.component.toLowerCase().slice(0,20)));
+          const it=c.items.find(i=>i.component.toLowerCase()===cn)||c.items.find(i=>cn.includes(i.component.toLowerCase().slice(0,20)));
           if(it){const st=String(r[2]||"").trim();if(["Si","No","Parcial","No Aplica"].includes(st)){nA[it.id]=st;m++}if(r[3])nO[it.id]=String(r[3]).trim()}
         });
       });
