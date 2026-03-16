@@ -12,7 +12,7 @@ const STATUS = [
 ];
 
 const LOGO_URL = "https://interwor-tsic.com/wp-content/uploads/2025/06/logo_cabecera.svg";
-const LOGO_WHITE = "https://interwor-tsic.com/wp-content/uploads/2025/06/logoblanco.svg";
+const LOGO_WHITE = "https://www.knowmadmood.com/en/media/Logo_Knowmad_mood_Regular_White_Vector.svg";
 const WHATSAPP_CHANNEL = "https://whatsapp.com/channel/interwor-ciberseguretat";
 
 function InfoModal({ item, lang, onClose }) {
