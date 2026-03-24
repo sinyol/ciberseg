@@ -229,7 +229,7 @@ export const PRODUCTS = [
     name: "Configuració DKIM/SPF/DMARC per Interwor",
     vendor: "Interwor",
     note: { ca: "Implementació i configuració professional dels protocols d'autenticació de correu electrònic.", es: "Implementación y configuración profesional de los protocolos de autenticación de correo electrónico." },
-    controls: ["ce5","ce6","ce7","ce8"],
+    controls: ["ce5","ce6","ce8"],
     icon: "I",
     color: "#1a1a2e",
   },
