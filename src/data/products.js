@@ -328,7 +328,7 @@ export const PRODUCTS = [
     name: "Enthec Kartos",
     vendor: "Kartos",
     note: { ca: "Detecció de campanyes de phishing, frau i estafa a xarxes socials i dark web.", es: "Detección de campañas de phishing, fraude y estafa en redes sociales i dark web." },
-    controls: ["ce7"],
+    controls: ["ce6","ce7"],
     icon: "C",
     color: "#0078d4",
   },
